@@ -6,5 +6,12 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Práctica de Gatsby",
+    description: "Proyecto de práctica del framework Gatsby",
+    author: "@JGabrielPS",
+    data: ["item1", "item2"],
+    person: { name: "Juan", age: 30 },
+  },
   plugins: [`gatsby-plugin-styled-components`],
 }
